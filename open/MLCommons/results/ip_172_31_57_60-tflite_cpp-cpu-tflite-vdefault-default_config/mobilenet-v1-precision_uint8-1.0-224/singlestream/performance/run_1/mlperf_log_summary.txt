@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 39178332
+90th percentile latency (ns) : 6883111
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (16153).
- * Would discard 1525 highest latency queries.
- * Early stopping 90th percentile estimate: 39234544
- * Early stopping 99th percentile estimate: 44023371
+ * Processed at least 64 queries (92815).
+ * Would discard 9067 highest latency queries.
+ * Early stopping 90th percentile estimate: 6883251
+ * Early stopping 99th percentile estimate: 6942536
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 26.92
-QPS w/o loadgen overhead        : 26.92
+QPS w/ loadgen overhead         : 154.69
+QPS w/o loadgen overhead        : 154.75
 
-Min latency (ns)                : 27239924
-Max latency (ns)                : 55927304
-Mean latency (ns)               : 37142450
-50.00 percentile latency (ns)   : 37108802
-90.00 percentile latency (ns)   : 39178332
-95.00 percentile latency (ns)   : 39802715
-97.00 percentile latency (ns)   : 40245960
-99.00 percentile latency (ns)   : 41755972
-99.90 percentile latency (ns)   : 51901637
+Min latency (ns)                : 5499525
+Max latency (ns)                : 8610415
+Mean latency (ns)               : 6462063
+50.00 percentile latency (ns)   : 6866034
+90.00 percentile latency (ns)   : 6883111
+95.00 percentile latency (ns)   : 6887935
+97.00 percentile latency (ns)   : 6892644
+99.00 percentile latency (ns)   : 6939853
+99.90 percentile latency (ns)   : 7018361
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 24.23
+target_qps : 180.402
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

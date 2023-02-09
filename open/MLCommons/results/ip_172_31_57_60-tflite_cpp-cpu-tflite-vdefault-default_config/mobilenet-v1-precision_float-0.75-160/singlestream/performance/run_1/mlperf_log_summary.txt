@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 4188890
+90th percentile latency (ns) : 4165243
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (144271).
- * Would discard 14161 highest latency queries.
- * Early stopping 90th percentile estimate: 4189539
- * Early stopping 99th percentile estimate: 4380802
+ * Processed at least 64 queries (144768).
+ * Would discard 14210 highest latency queries.
+ * Early stopping 90th percentile estimate: 4165559
+ * Early stopping 99th percentile estimate: 4211639
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 240.45
-QPS w/o loadgen overhead        : 240.66
+QPS w/ loadgen overhead         : 241.28
+QPS w/o loadgen overhead        : 241.48
 
-Min latency (ns)                : 4095285
-Max latency (ns)                : 6105232
-Mean latency (ns)               : 4155288
-50.00 percentile latency (ns)   : 4144894
-90.00 percentile latency (ns)   : 4188890
-95.00 percentile latency (ns)   : 4216792
-97.00 percentile latency (ns)   : 4244895
-99.00 percentile latency (ns)   : 4360687
-99.90 percentile latency (ns)   : 4652394
+Min latency (ns)                : 4098647
+Max latency (ns)                : 6245510
+Mean latency (ns)               : 4141127
+50.00 percentile latency (ns)   : 4137681
+90.00 percentile latency (ns)   : 4165243
+95.00 percentile latency (ns)   : 4177477
+97.00 percentile latency (ns)   : 4187100
+99.00 percentile latency (ns)   : 4210079
+99.90 percentile latency (ns)   : 4273386
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 149.272
+target_qps : 239.532
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000

@@ -28,7 +28,7 @@
   "operating_system": "Ubuntu 22.04 (linux-5.19.0-32-generic-glibc2.35)",
   "other_software_stack": "Python: 3.10.6, GCC-11.3.0",
   "status": "available",
-  "submitter": "cTuning",
+  "submitter": "MLCommons",
   "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
   "system_name": "phoenix-Amd-Am5 (auto detected)",
   "system_type": "edge"

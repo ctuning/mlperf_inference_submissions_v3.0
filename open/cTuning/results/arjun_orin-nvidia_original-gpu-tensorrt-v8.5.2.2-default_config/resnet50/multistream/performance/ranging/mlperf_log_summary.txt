@@ -2,45 +2,42 @@
 MLPerf Results Summary
 ================================================
 SUT name : LWIS_Server
-Scenario : SingleStream
+Scenario : MultiStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 720688
+99th percentile latency (ns) : 2565816
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (857604).
- * Would discard 85113 highest latency queries.
- * Early stopping 90th percentile estimate: 720752
- * Early stopping 99th percentile estimate: 736464
+ * Processed at least 662 queries (270336).
+ * Would discard 2582 highest latency queries.
+ * Early stopping 99th percentile estimate: 2566490
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 1429.34
-QPS w/o loadgen overhead        : 1446.70
-
-Min latency (ns)                : 650638
-Max latency (ns)                : 3458925
-Mean latency (ns)               : 691229
-50.00 percentile latency (ns)   : 688559
-90.00 percentile latency (ns)   : 720688
-95.00 percentile latency (ns)   : 724560
-97.00 percentile latency (ns)   : 727344
-99.00 percentile latency (ns)   : 736209
-99.90 percentile latency (ns)   : 814130
+Per-query latency:  
+Min latency (ns)                : 2394741
+Max latency (ns)                : 5717026
+Mean latency (ns)               : 2488254
+50.00 percentile latency (ns)   : 2483097
+90.00 percentile latency (ns)   : 2533338
+95.00 percentile latency (ns)   : 2544186
+97.00 percentile latency (ns)   : 2551097
+99.00 percentile latency (ns)   : 2565816
+99.90 percentile latency (ns)   : 2623388
 
 ================================================
 Test Parameters Used
 ================================================
-samples_per_query : 1
-target_qps : 1428.57
+samples_per_query : 8
+target_qps : 333.333
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
 max_duration (ms): 0
-min_query_count : 1024
+min_query_count : 270336
 max_query_count : 0
 qsl_rng_seed : 10003631887983097364
 sample_index_rng_seed : 17183018601990103738

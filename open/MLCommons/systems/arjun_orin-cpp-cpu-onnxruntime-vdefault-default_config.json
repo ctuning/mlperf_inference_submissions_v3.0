@@ -28,8 +28,8 @@
   "operating_system": "Ubuntu 20.04 (linux-5.10.65-tegra-glibc2.31)",
   "other_software_stack": "Python: 3.8.10, GCC-9.4.0",
   "status": "available",
-  "submitter": "cTuning",
-  "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
+  "submitter": "MLCommons",
+  "sw_notes": " Powered by MLCommons Collective Knowledge Framework.",
   "system_name": "arjun-orin (auto detected)",
   "system_type": "edge"
 }

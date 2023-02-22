@@ -29,7 +29,7 @@
   "other_software_stack": "Python: 3.8.10, GCC-9.4.0",
   "status": "available",
   "submitter": "cTuning",
-  "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
+  "sw_notes": " Powered by MLCommons Collective Knowledge Framework.",
   "system_name": "arjun-orin (auto detected)",
   "system_type": "edge"
 }

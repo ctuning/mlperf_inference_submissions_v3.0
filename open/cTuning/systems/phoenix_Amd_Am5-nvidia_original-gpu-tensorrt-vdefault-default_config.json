@@ -10,7 +10,7 @@
   "accelerators_per_node": "1",
   "cooling": "",
   "division": "open",
-  "framework": "TensorRT",
+  "framework": "onnxruntime v1.14.0",
   "host_memory_capacity": "63G",
   "host_memory_configuration": "",
   "host_networking": "",

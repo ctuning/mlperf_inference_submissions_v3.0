@@ -4,40 +4,38 @@ MLPerf Results Summary
 SUT name : TFLite_SUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 15932375
-Result is : INVALID
-  Min duration satisfied : NO
+90th percentile latency (ns) : 18335708
+Result is : VALID
+  Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
-Recommendations:
- * Decrease the expected latency so the loadgen pre-generates more queries.
 Early Stopping Result:
- * Processed at least 64 queries (62319).
- * Would discard 6056 highest latency queries.
- * Early stopping 90th percentile estimate: 16043042
- * Early stopping 99th percentile estimate: 35583417
+ * Processed at least 64 queries (57557).
+ * Would discard 5587 highest latency queries.
+ * Early stopping 90th percentile estimate: 18482291
+ * Early stopping 99th percentile estimate: 39274541
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 115.60
-QPS w/o loadgen overhead        : 115.62
+QPS w/ loadgen overhead         : 95.92
+QPS w/o loadgen overhead        : 95.94
 
-Min latency (ns)                : 852041
-Max latency (ns)                : 163569875
-Mean latency (ns)               : 8648955
-50.00 percentile latency (ns)   : 8057917
-90.00 percentile latency (ns)   : 15932375
-95.00 percentile latency (ns)   : 18447583
-97.00 percentile latency (ns)   : 20880083
-99.00 percentile latency (ns)   : 34534959
-99.90 percentile latency (ns)   : 49409833
+Min latency (ns)                : 858542
+Max latency (ns)                : 211086500
+Mean latency (ns)               : 10422922
+50.00 percentile latency (ns)   : 9476458
+90.00 percentile latency (ns)   : 18335708
+95.00 percentile latency (ns)   : 21753500
+97.00 percentile latency (ns)   : 25637417
+99.00 percentile latency (ns)   : 38550708
+99.90 percentile latency (ns)   : 53744458
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 51.9309
+target_qps : 50.4669
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
@@ -58,4 +56,4 @@ performance_sample_count : 1024
 
 No warnings encountered during test.
 
-1 ERROR encountered. See detailed log.
+No errors encountered during test.

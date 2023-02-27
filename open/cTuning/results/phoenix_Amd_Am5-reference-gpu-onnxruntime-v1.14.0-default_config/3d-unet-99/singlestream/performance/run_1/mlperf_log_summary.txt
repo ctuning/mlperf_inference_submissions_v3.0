@@ -4,16 +4,22 @@ MLPerf Results Summary
 SUT name : PySUT
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 6864307291
-Result is : VALID
-  Min duration satisfied : Yes
-  Min queries satisfied : Yes
+90th percentile latency (ns) : 6854681206
+Result is : INVALID
+  Min duration satisfied : NO
+  Min queries satisfied : NO
   Early stopping satisfied: Yes
+Recommendations:
+ * Decrease the expected latency so the loadgen pre-generates more queries.
+ * The test exited early, before enough queries were issued.
+   See the detailed log for why this may have occurred.
 Early Stopping Result:
- * Processed at least 64 queries (688).
- * Would discard 49 highest latency queries.
- * Early stopping 90th percentile estimate: 6887786748
- * Early stopping 99th percentile estimate: 7955569410
+ * Processed at least 64 queries (94).
+ * Would discard 1 highest latency queries.
+ * Early stopping 90th percentile estimate: 7911088438
+ * Not enough queries processed for 99th percentile
+ early stopping estimate (would need to process at
+ least 662 total queries).
 
 ================================================
 Additional Stats
@@ -21,15 +27,15 @@ Additional Stats
 QPS w/ loadgen overhead         : 0.28
 QPS w/o loadgen overhead        : 0.28
 
-Min latency (ns)                : 499877157
-Max latency (ns)                : 7955569410
-Mean latency (ns)               : 3587475811
-50.00 percentile latency (ns)   : 2841903297
-90.00 percentile latency (ns)   : 6864307291
-95.00 percentile latency (ns)   : 7905721375
-97.00 percentile latency (ns)   : 7911371169
-99.00 percentile latency (ns)   : 7929316068
-99.90 percentile latency (ns)   : 7955569410
+Min latency (ns)                : 502586668
+Max latency (ns)                : 7921065453
+Mean latency (ns)               : 3519916714
+50.00 percentile latency (ns)   : 2842433545
+90.00 percentile latency (ns)   : 6854681206
+95.00 percentile latency (ns)   : 7906072118
+97.00 percentile latency (ns)   : 7908447984
+99.00 percentile latency (ns)   : 7921065453
+99.90 percentile latency (ns)   : 7921065453
 
 ================================================
 Test Parameters Used
@@ -40,8 +46,8 @@ target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
 max_duration (ms): 0
-min_query_count : 688
-max_query_count : 702
+min_query_count : 215
+max_query_count : 94
 qsl_rng_seed : 10003631887983097364
 sample_index_rng_seed : 17183018601990103738
 schedule_rng_seed : 12134888396634371638
@@ -56,4 +62,4 @@ performance_sample_count : 43
 
 No warnings encountered during test.
 
-No errors encountered during test.
+1 ERROR encountered. See detailed log.

@@ -10,7 +10,7 @@
   "accelerators_per_node": "0",
   "cooling": "",
   "division": "open",
-  "framework": "armnn_tflite v22.11",
+  "framework": "tflite vmaster",
   "host_memory_capacity": "31G",
   "host_memory_configuration": "",
   "host_networking": "",
@@ -28,7 +28,7 @@
   "operating_system": "Ubuntu 22.04 (linux-5.15.0-1028-aws-glibc2.35)",
   "other_software_stack": "Python: 3.10.6, GCC-11.3.0",
   "status": "available",
-  "submitter": "MLCommons",
+  "submitter": "cTuning",
   "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
   "system_name": "ip-172-31-11-15 (auto detected)",
   "system_type": "edge"

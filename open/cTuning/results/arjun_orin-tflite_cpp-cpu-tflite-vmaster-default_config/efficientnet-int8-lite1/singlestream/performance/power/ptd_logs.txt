@@ -1,0 +1,1400 @@
+Selected power meter 'Yokogawa WT310' from wt310.cpp
+  ****************************************************************************
+                      ***********************************                     
+                               SPEC PTDaemon Tool                             
+                        Version 1.10.0-ed9a21d2-20220817                     
+                      ***********************************                     
+                     Licensed Materials - Property of SPEC
+     Copyright 2006-2022 Standard Performance Evaluation Corporation (SPEC)
+                              All Rights Reserved.
+  For use with benchmark products from SPEC and authorized organizations only.
+  ****************************************************************************
+
+
+Redirecting data output to file /tmp/tmpti64566v/ptd_logfile.txt
+Calculated PTD CRC: 0xed9a21d2, 7188608
+02-24-2023 23:09:28.606: Attempting to connect to measurement device type 49...
+02-24-2023 23:09:29.208: Analyzer identity response of 33 bytes: YOKOGAWA,WT310E,C3YD21068E,F1.04
+
+02-24-2023 23:09:29.209: WT3XX enhanced model detected.
+02-24-2023 23:09:45.534: Uncertainty checking for YokogawaWT310E is activated
+02-24-2023 23:09:45.534: Connected to YokogawaWT310E successfully
+02-24-2023 23:09:45.534: Establishing the listener on port 8888...
+02-24-2023 23:09:45.534: Waiting for a connection...
+02-24-2023 23:09:45.604: Accepted connection from 127.0.0.1:41912
+02-24-2023 23:09:45.605: Response to client sent: Hello, PTDaemon here!
+02-24-2023 23:09:45.606: Response to client sent: YokogawaWT310E,1000,1,1,1,1,0,1,1,version=1.10.0-ed9a21d2-20220817,OS=Linux 5.15.0-56-generic #62-Ubuntu SMP Tue Nov 22 19:54:14 UTC 2022 x86_64,mode=power,1,1,1,0,0,no_cal_date,YOKOGAWA;WT310E;C3YD21068E;F1.04
+02-24-2023 23:09:45.608: Response to client sent: Ranges,0,0.100000,0,600.000000
+02-24-2023 23:09:45.610: Volt range set to Auto
+02-24-2023 23:09:46.113: Response to client sent: Range V changed
+02-24-2023 23:09:46.114: Ampere range set to Auto
+02-24-2023 23:09:46.617: Response to client sent: Range A changed
+02-24-2023 23:09:56.629: Go with mark '2023-02-24_23-09-28_ranging'
+02-24-2023 23:09:56.629: Response to client sent: Starting untimed measurement, maximum 500000 samples at 1000ms with 0 rampup samples
+02-24-2023 23:09:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:09:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:09:57.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:09:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:09:58.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:09:58.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:09:59.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:09:59.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:07.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:07.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:08.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:08.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:13.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:13.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:15.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:15.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:16.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:16.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:17.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:17.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:20.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:20.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:28.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:28.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:29.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:30.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:30.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:31.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:31.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:34.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:34.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:35.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:35.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:36.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:36.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:39.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:39.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:46.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:46.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:49.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:49.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:50.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:52.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:52.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:58.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:58.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:10:59.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:10:59.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:02.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:02.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:15.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:16.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:16.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:25.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:25.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:26.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:26.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:28.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:28.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:31.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:34.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:34.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:43.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:43.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:47.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:47.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:50.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:52.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:52.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:57.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:57.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:11:59.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:11:59.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:00.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:13.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:13.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:15.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:16.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:16.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:26.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:26.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:29.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:29.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:30.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:32.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:32.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:34.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:36.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:37.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:37.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:43.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:43.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:45.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:45.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:48.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:48.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:49.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:50.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:50.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:52.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:52.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:56.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:56.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:12:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:12:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:00.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:01.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:01.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:02.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:03.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:03.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:07.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:13.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:13.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:15.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:16.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:16.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:17.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:17.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:21.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:27.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:27.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:35.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:35.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:36.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:36.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:42.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:42.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:43.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:43.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:44.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:44.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:50.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:50.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:52.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:52.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:57.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:13:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:13:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:01.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:01.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:15.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:15.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:16.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:16.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:22.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:22.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:24.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:35.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:38.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:38.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:41.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:41.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:42.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:42.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:50.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:50.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:52.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:52.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:58.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:14:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:14:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:04.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:04.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:07.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:10.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:11.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:11.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:14.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:14.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:15.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:15.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:16.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:16.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:21.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:21.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:30.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:30.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:32.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:32.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:44.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:44.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:45.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:50.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:52.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:52.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:54.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:54.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:15:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:15:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:01.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:01.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:04.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:04.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:10.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:10.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:14.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:14.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:15.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:16.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:16.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:22.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:22.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:33.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:39.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:39.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:46.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:46.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:50.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:51.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:51.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:52.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:52.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:56.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:56.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:16:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:16:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:02.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:02.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:04.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:04.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:07.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:07.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:10.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:10.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:15.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:15.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:16.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:16.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:19.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:19.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:25.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:32.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:32.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:42.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:42.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:45.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:45.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:50.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:51.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:51.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:52.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:52.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:54.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:54.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:55.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:55.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:56.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:56.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:57.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:58.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:58.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:17:59.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:17:59.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:08.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:08.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:09.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:15.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:16.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:16.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:17.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:17.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:19.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:19.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:20.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:20.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:26.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:26.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:28.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:29.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:29.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:36.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:36.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:38.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:38.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:39.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:39.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:40.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:40.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:44.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:44.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:46.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:46.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:49.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:49.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:50.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:52.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:52.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:55.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:55.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:56.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:56.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:18:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:18:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:04.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:04.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:05.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:05.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:11.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:11.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:15.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:16.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:16.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:17.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:17.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:18.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:18.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:20.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:20.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:22.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:22.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:24.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:24.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:25.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:25.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:29.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:29.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:30.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:30.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:31.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:31.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:33.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:33.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:34.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:34.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:38.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:38.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:40.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:40.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:41.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:42.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:42.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:46.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:46.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:47.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:47.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:49.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:49.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:50.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:50.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:52.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:52.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:54.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:54.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:56.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:56.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:19:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:19:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:02.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:02.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:03.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:04.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:05.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:05.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:06.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:06.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:08.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:08.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:09.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:09.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:10.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:10.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:11.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:11.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:12.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:12.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:13.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:13.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:14.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:14.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:15.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:15.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:16.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:16.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:17.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:17.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:18.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:18.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:19.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:19.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:20.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:20.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:21.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:21.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:22.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:22.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:23.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:23.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:24.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:24.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:25.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:25.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:26.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:26.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:27.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:27.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:28.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:28.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:29.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:29.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:30.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:30.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:31.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:31.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:32.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:32.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:33.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:33.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:34.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:34.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:35.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:35.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:36.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:36.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:37.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:37.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:38.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:38.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:39.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:39.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:40.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:40.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:41.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:41.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:42.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:42.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:43.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:43.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:44.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:44.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:45.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:45.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:46.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:46.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:47.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:47.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:48.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:48.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:49.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:49.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:50.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:50.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:51.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:51.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:52.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:52.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:53.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:53.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:54.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:54.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:55.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:55.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:56.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:56.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:57.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:57.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:58.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:58.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:20:59.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:20:59.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:00.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:00.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:01.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:01.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:02.935: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:02.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:03.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:03.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:04.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:04.935: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:05.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:05.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:06.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:06.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:07.934: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:07.934: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:08.704: Response to client sent: Stopping untimed measurement
+02-24-2023 23:21:08.933: ERROR: Can't evaluate uncertainty of this sample!
+02-24-2023 23:21:08.933: WARNING: Uncertainty unknown for the last measurement sample!
+02-24-2023 23:21:09.631: Completed test
+02-24-2023 23:21:09.631: Avg watts 17.837667, min watts 14.640000, max watts 19.650000, samples 673, errors 0, valid 673
+02-24-2023 23:21:09.631: Volt range set to 300.000000V
+02-24-2023 23:21:11.134: Response to client sent: Range V changed
+02-24-2023 23:21:11.135: Amp range set to 0.200000A
+02-24-2023 23:21:12.637: Response to client sent: Range A changed
+02-24-2023 23:21:22.649: Go with mark '2023-02-24_23-09-28_testing'
+02-24-2023 23:21:22.650: Response to client sent: Starting untimed measurement, maximum 500000 samples at 1000ms with 0 rampup samples
+02-24-2023 23:32:32.726: Response to client sent: Stopping untimed measurement
+02-24-2023 23:32:33.651: Completed test
+02-24-2023 23:32:33.651: Avg watts 17.873221, min watts 14.700000, max watts 19.256000, samples 671, errors 0, valid 671
+02-24-2023 23:32:33.651: Response to client sent: Error: no measurement to stop
+02-24-2023 23:32:33.652: Volt range set to 600.000000V
+02-24-2023 23:32:35.154: Response to client sent: Range V changed
+02-24-2023 23:32:35.155: Amp range set to 0.100000A
+02-24-2023 23:32:36.657: Response to client sent: Range A changed
+02-24-2023 23:32:36.658: No data returned by socket read.
+02-24-2023 23:32:36.658: Shutting connection down...
+02-24-2023 23:32:36.659: Connection is down.
+02-24-2023 23:32:36.659: Waiting for a connection...

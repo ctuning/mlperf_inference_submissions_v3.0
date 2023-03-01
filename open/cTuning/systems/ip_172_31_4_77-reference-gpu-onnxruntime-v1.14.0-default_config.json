@@ -31,5 +31,5 @@
   "submitter": "cTuning",
   "sw_notes": "Powered by MLCommons Collective Mind framework (CK2). ",
   "system_name": "ip-172-31-4-77 (auto detected)",
-  "system_type": "edge"
+  "system_type": "datacenter"
 }

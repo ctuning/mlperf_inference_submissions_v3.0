@@ -29,105 +29,105 @@
     "messages": [
         {
             "cmd": "mlcommons/power client v3",
-            "cmd_time": 1677280168.4168305,
+            "cmd_time": 1677608873.7604263,
             "reply": "mlcommons/power server v3",
-            "reply_time": 1677280168.4168336
+            "reply_time": 1677608873.760429
         },
         {
             "cmd": "time",
-            "cmd_time": 1677280168.4689183,
-            "reply": "1677280168.4693441",
-            "reply_time": 1677280168.4697134
+            "cmd_time": 1677608873.7883506,
+            "reply": "1677608873.78882",
+            "reply_time": 1677608873.7890513
         },
         {
-            "cmd": "new,,0a3467db-7d04-46e9-92bf-e0219304f057",
-            "cmd_time": 1677280168.4730885,
-            "reply": "OK 2023-02-24_23-09-28,9fc7e98a-512d-4ef3-8e0f-fa136d59d738",
-            "reply_time": 1677280168.4746435
-        },
-        {
-            "cmd": "time",
-            "cmd_time": 1677280168.4965885,
-            "reply": "1677280168.4970078",
-            "reply_time": 1677280168.4973674
-        },
-        {
-            "cmd": "session,2023-02-24_23-09-28,start,ranging",
-            "cmd_time": 1677280168.5014427,
-            "reply": "OK",
-            "reply_time": 1677280196.630628
-        },
-        {
-            "cmd": "session,2023-02-24_23-09-28,stop,ranging",
-            "cmd_time": 1677280858.6924973,
-            "reply": "OK",
-            "reply_time": 1677280868.8346927
+            "cmd": "new,,2372d3c7-9cca-47fb-a25b-c51e231fe2e5",
+            "cmd_time": 1677608873.7929447,
+            "reply": "OK 2023-02-28_18-27-53,f8510c69-61ea-46c1-9e7d-b3931a6da66f",
+            "reply_time": 1677608873.794417
         },
         {
             "cmd": "time",
-            "cmd_time": 1677280868.904117,
-            "reply": "1677280868.9042554",
-            "reply_time": 1677280868.904307
+            "cmd_time": 1677608873.817514,
+            "reply": "1677608873.8179355",
+            "reply_time": 1677608873.818172
         },
         {
-            "cmd": "session,2023-02-24_23-09-28,start,testing",
-            "cmd_time": 1677280868.9531906,
+            "cmd": "session,2023-02-28_18-27-53,start,ranging",
+            "cmd_time": 1677608873.8210766,
             "reply": "OK",
-            "reply_time": 1677280882.6504514
+            "reply_time": 1677608901.947875
         },
         {
-            "cmd": "session,2023-02-24_23-09-28,stop,testing",
-            "cmd_time": 1677281542.7148402,
+            "cmd": "session,2023-02-28_18-27-53,stop,ranging",
+            "cmd_time": 1677609960.1461473,
             "reply": "OK",
-            "reply_time": 1677281552.797927
+            "reply_time": 1677609970.4823096
+        },
+        {
+            "cmd": "time",
+            "cmd_time": 1677609970.549576,
+            "reply": "1677609970.5497277",
+            "reply_time": 1677609970.5498145
+        },
+        {
+            "cmd": "session,2023-02-28_18-27-53,start,testing",
+            "cmd_time": 1677609970.5538101,
+            "reply": "OK",
+            "reply_time": 1677609983.9657319
+        },
+        {
+            "cmd": "session,2023-02-28_18-27-53,stop,testing",
+            "cmd_time": 1677611038.5807002,
+            "reply": "OK",
+            "reply_time": 1677611048.753061
         }
     ],
     "uuid": {
-        "client": "0a3467db-7d04-46e9-92bf-e0219304f057",
-        "server": "9fc7e98a-512d-4ef3-8e0f-fa136d59d738"
+        "client": "2372d3c7-9cca-47fb-a25b-c51e231fe2e5",
+        "server": "f8510c69-61ea-46c1-9e7d-b3931a6da66f"
     },
-    "session_name": "2023-02-24_23-09-28",
+    "session_name": "2023-02-28_18-27-53",
     "results": {
-        "power/ptd_logs.txt": "ba854fd0403eaa58816c564e0b392d1206060bc4",
-        "power/server.log": "7986e8071b2552af6c219d6524679f41c5017d42",
-        "ranging/spl.txt": "0ad664ef23e57b601e419da621e3ff9a6a3a203e",
-        "run_1/spl.txt": "1e5e10c8213b096ed239227d7bf9c606cfe21e67"
+        "power/ptd_logs.txt": "e976b812248488a0efee2843ae72376f831336b8",
+        "power/server.log": "940592365f990bbdd14b761f8573624c7576abc5",
+        "ranging/spl.txt": "9a36313dcb8cd68b41ae54a865a75b453bd927da",
+        "run_1/spl.txt": "e63037d9dc2dd77671a852e940ded2d3780a69ef"
     },
     "phases": {
         "ranging": [
             [
-                1677280168.5019472,
-                5014908.778073527
+                1677608873.8215418,
+                5343614.098976589
             ],
             [
-                1677280196.6303148,
-                5014936.90643929
+                1677608901.947651,
+                5343642.225084313
             ],
             [
-                1677280858.6929593,
-                5015598.969085152
+                1677609960.1465795,
+                5344700.424014332
             ],
             [
-                1677280868.8346243,
-                5015609.110748741
+                1677609970.4822419,
+                5344710.759674887
             ]
         ],
         "testing": [
             [
-                1677280868.9536154,
-                5015609.229741215
+                1677609970.5539608,
+                5344710.831393904
             ],
             [
-                1677280882.650342,
-                5015622.926466397
+                1677609983.9653563,
+                5344724.242790934
             ],
             [
-                1677281542.715334,
-                5016282.991459885
+                1677611038.5812037,
+                5345778.858638219
             ],
             [
-                1677281552.7978737,
-                5016293.073998251
+                1677611048.7530081,
+                5345789.030441413
             ]
         ]
     },
@@ -153,7 +153,7 @@
             "reply": "Range A changed"
         },
         {
-            "cmd": "Go,1000,0,2023-02-24_23-09-28_ranging",
+            "cmd": "Go,1000,0,2023-02-28_18-27-53_ranging",
             "reply": "Starting untimed measurement, maximum 500000 samples at 1000ms with 0 rampup samples"
         },
         {
@@ -161,15 +161,15 @@
             "reply": "Stopping untimed measurement"
         },
         {
-            "cmd": "SR,V,247.630000",
+            "cmd": "SR,V,245.830000",
             "reply": "Range V changed"
         },
         {
-            "cmd": "SR,A,0.173990",
+            "cmd": "SR,A,0.168040",
             "reply": "Range A changed"
         },
         {
-            "cmd": "Go,1000,0,2023-02-24_23-09-28_testing",
+            "cmd": "Go,1000,0,2023-02-28_18-27-53_testing",
             "reply": "Starting untimed measurement, maximum 500000 samples at 1000ms with 0 rampup samples"
         },
         {

@@ -1,1 +1,0 @@
-accuracy=64.038%, good=32019, total=50000

@@ -4,7 +4,7 @@ MLPerf Results Summary
 SUT name : RNNT SERVER
 Scenario : Offline
 Mode     : PerformanceOnly
-Samples per second: 15185.2
+Samples per second: 15281.4
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
@@ -13,15 +13,15 @@ Result is : VALID
 ================================================
 Additional Stats
 ================================================
-Min latency (ns)                : 827802489
-Max latency (ns)                : 608486137403
-Mean latency (ns)               : 388556494661
-50.00 percentile latency (ns)   : 425143658010
-90.00 percentile latency (ns)   : 586880539307
-95.00 percentile latency (ns)   : 598601623249
-97.00 percentile latency (ns)   : 602853437776
-99.00 percentile latency (ns)   : 606834227822
-99.90 percentile latency (ns)   : 608360666608
+Min latency (ns)                : 909430007
+Max latency (ns)                : 604657358465
+Mean latency (ns)               : 385344455746
+50.00 percentile latency (ns)   : 421274327565
+90.00 percentile latency (ns)   : 583017462493
+95.00 percentile latency (ns)   : 594794422986
+97.00 percentile latency (ns)   : 599047904981
+99.00 percentile latency (ns)   : 602986552688
+99.90 percentile latency (ns)   : 604549573717
 
 ================================================
 Test Parameters Used
